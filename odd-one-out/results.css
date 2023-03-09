@@ -1,0 +1,59 @@
+Body {
+
+    background-color: #7800f5;
+    position: relative;
+    text-align: center;
+    font-size: 150%;
+}
+
+p {
+    background-color: black;
+    padding: 2%;
+    color: white;
+}
+
+.next-button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 2%;
+    font-size: 60px;
+    cursor: pointer;
+    font-family: Big Caslon;
+    top: 50%;
+    border: rebeccapurple;
+}
+#play {
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+ .next-button{
+     background-color: rebeccapurple;
+     color: white;
+     padding: 2%;
+    font-size: 60px;
+    cursor: pointer;
+    font-family: serif;
+    top: 50%;
+    border: rebeccapurple;
+    position: fixed;
+    top: 600px;
+    left: 45%
+ }
+ @keyframes bgcolor {
+    0% {
+        background-color: #7800f5
+    }
+
+    50% {
+        background-color: pink
+    }
+    100%{
+        background-color: #7800f5;
+    }
+}
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
