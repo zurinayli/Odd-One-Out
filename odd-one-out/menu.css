@@ -1,36 +1,42 @@
-#play {
-    color: rgb(255, 255, 255);
-    text-align: center;
- }
- .next-button{
-     background-color: rebeccapurple;
-     color: white;
-     padding: 2%;
-    font-size: 60px;
-    cursor: pointer;
-    font-family: serif;
-    margin-top: auto;
-    border: rebeccapurple;
-    position: fixed;
-    top: 600px;
-    left: 45%
- }
-
-@keyframes bgcolor {
-    0% {
-        background-color: #7800f5
-    }
-
-    50% {
-        background-color: pink
-    }
-    100%{
-        background-color: #7800f5;
-    }
+body{
+    background-color: black;
+    color:white;
+    
 }
-body {
-    -webkit-animation: bgcolor 20s infinite;
-    animation: bgcolor 10s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+
+h1{
+    margin-left: 45%;
+}
+
+.buttons button{
+    display:block;
+    display: flex;  
+    justify-content: center;  
+    margin-left: 37.5%;
+    
+    padding: 2%;
+    width: 25%;
+    font-size: large;
+    margin-top: 2%;
+}
+
+
+button{
+    background-color:  #7800f5;
+    
+}
+
+
+
+#back {
+    background-color: black;
+    align-items: left;
+    margin-top: 5%;
+    
+}
+
+#home {
+    background-color: black;
+   margin-left: 75%;
+   margin-top: 10%;
 }
